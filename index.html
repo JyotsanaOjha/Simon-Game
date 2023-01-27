@@ -9,7 +9,25 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="game-name">SIMON GAME</h1>
+  <div class="tooltip">How To Play?
+    <span class="tooltiptext"><strong>HOW TO PLAY?</strong>
+      <ul>
+        <li>Press any key to start.</li>
+        <li>Simon will give the first signal. (One of the Colors will blink, accompanied by a tone.)</li>
+        <li>Repeat that signal by clicking the same Color.</li>
+        <li>Simon will keep track of the first signal and add one more.</li>
+        <li>Repeat those two signals in the same order.</li>
+        <li>Simon will keep track of the past sequence and add one more signal for each subsequent level.</li>
+        <li>Continue to repeat Simon for as long as you can!</li>
+      </ul>
+
+      <strong>VICTORY:</strong></br></br>
+      If you fail to complete the sequence in the correct order, the Buzzer will sound, and the game will
+      end.
+    </span>
+  </div>
+  <h2 id="level-title">Press Any Key to Start</h2>
   <div class="container">
     <div class="row">
 
@@ -32,8 +50,11 @@
       </div>
 
     </div>
-
+    
   </div>
+  <footer>
+    Made by Jyotsana Ojha.
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="game.js"></script>
 </body>
